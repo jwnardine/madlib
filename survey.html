@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles2.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts3.js"></script>
+    <title>Favorite things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What is your favorite...</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="food">food?</label>
+            <input id="food" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="song">song?</label>
+            <input id="song" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="movie">movie?</label>
+            <input id="movie" class="form-control" type="text">
+          </div>
+          <div class="dropdown">
+            <label for="kardashian">Kardashian sister?</label>
+            <select id="kardashian" class="form-control" type="text">
+              <option>Kim</option>
+              <option>Khloe</option>
+              <option>Kourtney</option>
+              <option>Kendall</option>
+              <option>Kylie</option>
+            </select>
+          </div>
+          <div class="dropdown">
+            <label for="baldwin">Baldwin brother?</label>
+            <select id="baldwin" class="form-control" type="text">
+              <option>Alec</option>
+              <option>Stephen</option>
+              <option>Billy</option>
+              <option>Daniel</option>
+            </select>
+          </div>
+
+          <button type="submit" class="btn">Remind me of my favorites!</button>
+        </form>
+      </div>
+
+      <div id="favorites">
+        <h1>Here are your favorites!</h1>
+        <p> Your favorite food is <span class="food"></span>. Your favorite song is <span class="song"></span> and your favorite movie is <span class="movie"></span>. Your favorite Kardashian sister is <span class="kardashian"></span>, while your favorite Baldwin brother is <span class="baldwin"></span>.
+        </p>
+
+      </div>
+    </div>
+  </body>
+</html>
