@@ -16,4 +16,16 @@ $(function (){
 
     event.preventDefault();
   });
+
+  $(".btn-primary").click(function(){
+    $("button#lightness").toggle();
+    $("button#darkness").toggle();
+    $("body").removeClass();
+    $("body").addClass("black-background");
+  });
+  $(".btn-warning").click(function(){
+    $("button#lightness").toggle();
+    $("button#darkness").toggle();
+    $("body").removeClass();
+  });
 });

@@ -5,3 +5,14 @@
 button {
   margin-top: 25px;
 }
+
+.black-background {
+  background-color: black;
+  color: white;
+}
+
+
+
+#lightness{
+  display: none;
+}
